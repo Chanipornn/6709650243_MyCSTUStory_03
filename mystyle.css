@@ -541,15 +541,33 @@ footer p {
         
     }
 
-    .textbox, .textboxone, .textboxone1, .textboxtwo, .three, .cs101ac, .cs102ac {
+    .textbox, .textboxone, .textboxone1, .textboxtwo, .three, .cs101ac, .cs102ac  {
         padding: 10px;
         font-size: 14px;
         align-items: center;
         
     }
-    .textbox, .content2 {
+
+    .textbox {
         width: 94.5%;
     }
+
+    .content {
+        
+        padding: 20px;
+        width: 100%;
+        max-width: 400px; 
+        box-sizing: border-box; 
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        font-size: 16.5px;
+        text-align: center;
+        height: 14%;
+    }
+    
     
 }
 
