@@ -510,7 +510,7 @@ footer p {
     
 
     .table table {
-        width: 90%;
+        width: 100%;
     }
 
     .image-cs {
@@ -541,6 +541,9 @@ footer p {
         font-size: 14px;
         align-items: center;
         
+    }
+    .textbox {
+        width: 98%;
     }
     
 }
