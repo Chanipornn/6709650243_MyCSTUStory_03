@@ -506,7 +506,9 @@ footer p {
 
 
 
-@media (min-width: 767px) {
+
+
+@media (min-width: 600px) {
     
 
     .table table {
@@ -516,24 +518,27 @@ footer p {
     .image-cs {
         display: flex;
         flex-wrap: wrap;
-        
+        text-align: center;
+        align-items: center;
     }
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
  
     
 
     h1, h2, h3 {
         font-size: 1.5rem;
+        text-align: center;
     }
 
   
     .table table, .table table th, .table table td {
         display: block;
-        width: 100%;
+        width: 96%;
         align-items: center;
+        
     }
 
     .textbox, .textboxone, .textboxone1, .textboxtwo, .three, .cs101ac, .cs102ac {
@@ -543,18 +548,14 @@ footer p {
         
     }
     .textbox {
-        width: 98%;
+        width: 95%;
     }
     
 }
 
 @media (max-width: 480px) {
    
-    .image-cs {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
 
    
     h1, h2, h3 {
@@ -598,7 +599,7 @@ table {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .nav1 {
         width: 100%; 
         height: 100px;
