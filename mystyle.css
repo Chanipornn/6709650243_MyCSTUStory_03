@@ -536,7 +536,7 @@ footer p {
   
     .table table, .table table th, .table table td {
         display: block;
-        width: 96%;
+        width: 95.5%;
         align-items: center;
         
     }
@@ -547,8 +547,8 @@ footer p {
         align-items: center;
         
     }
-    .textbox {
-        width: 95%;
+    .textbox, .content2 {
+        width: 94.5%;
     }
     
 }
