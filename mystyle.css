@@ -541,3 +541,40 @@ footer p {
         
     }
 }
+
+@media (max-width: 480px) {
+   
+    .image-cs {
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+    h1, h2, h3 {
+        font-size: 1.4rem;
+    }
+
+   
+    .wrapper {
+        padding: 5px;
+    }
+
+    
+
+    .aside1 {
+        display: none; 
+    }
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #19274F;
+}
+
+table {
+    border: none; 
+}
