@@ -533,11 +533,13 @@ footer p {
     .table table, .table table th, .table table td {
         display: block;
         width: 100%;
+        align-items: center;
     }
 
     .textbox, .textboxone, .textboxone1, .textboxtwo, .three, .cs101ac, .cs102ac {
         padding: 10px;
         font-size: 14px;
+        align-items: center;
         
     }
     
@@ -548,6 +550,7 @@ footer p {
     .image-cs {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
    
