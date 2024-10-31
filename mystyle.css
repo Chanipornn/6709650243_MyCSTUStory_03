@@ -532,7 +532,7 @@ footer p {
   
     .table table, .table table th, .table table td {
         display: block;
-        width: 96%;
+        width: 100%;
     }
 
     .textbox, .textboxone, .textboxone1, .textboxtwo, .three, .cs101ac, .cs102ac {
@@ -540,9 +540,7 @@ footer p {
         font-size: 14px;
         
     }
-    .textbox {
-        width: 95%;
-    }
+    
 }
 
 @media (max-width: 480px) {
