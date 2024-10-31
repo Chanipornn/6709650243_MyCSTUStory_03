@@ -480,4 +480,64 @@ footer p {
     margin: 0;
 }
 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+/* Responsive Video */
+.video video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.table table {
+    width: 100%;
+    max-width: 100%;
+}
+
+.table table img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+@media (min-width: 767px) {
+    
+
+    .table table {
+        width: 90%;
+    }
+
+    .image-cs {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+ 
+    
+
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+
+  
+    .table table, .table table th, .table table td {
+        display: block;
+        width: 96%;
+    }
+
+    .textbox, .textboxone, .textboxone1, .textboxtwo, .three, .cs101ac, .cs102ac {
+        padding: 10px;
+        font-size: 14px;
+        
+    }
+}
